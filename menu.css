@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(214, 95, 10);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navegaçao {
+    width: 100px;
+    background-color: crimson;
+    display: inline-flex;
+}
+
+.menu {
+    background-color: white;
+    padding: 15pt;
+    margin: 1pt;
+    transition: 1s;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+}
+
+.menu:hover {
+    background-color: rgb(102, 3, 22);
+}
